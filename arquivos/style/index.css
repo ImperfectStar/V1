@@ -26,8 +26,10 @@ header h1 a{
 }
 #menu{
     display: flex;
+    padding: 10px;
     justify-content: center;
     cursor: pointer;
+    height: 20px;
 }
 header menu{
     display: none;
