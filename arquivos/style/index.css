@@ -62,16 +62,29 @@ main article {
 main article h2 {
     margin: 20px auto;
 }
+main article h3 {
+    text-align: center;
+}
 main article p {
     margin: 20px auto;
     padding: 10px 10px;
 }
 main article div {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 10px;
+}
+main article div img {
     display: flex;
     justify-content: center;
     margin: 10px auto;
-    background-image: url(../img/Dwarve.jpg);
-    background-size: cover;
     height: 500px;
     width: 280px ;
+}
+                            /*Footer*/
+footer{
+    background-color: darkcyan;
+    text-align: center;
 }
