@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="../style/conteudo.css">
+    <link rel="shortcut icon" href="../img/Dragon-dice.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu"/>
+    
+</head>
+<body>
+    <header>
+        <h1><a class="logo" href="../../index.html">Home</a></h1>
+            <i id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</i>
+            <menu id="itens">
+                <ul>
+                    <li><a href="arquivos/paginas/pag1.html">Exemplo de Ficha</a></li>
+                    <li><a href="#">text</a></li>
+                    <li><a href="#">test</a></li>
+                </ul>
+            </menu>
+    </header>
+    <Main>
+        <article>
+            <h1></h1>
+                <div id="caixa" onclick="clickMenu()">
+                    <h2>Dados da Ficha</h2>
+                    <div id="hide" >
+                        <ul>
+                            <li>|Nome| Ficha Modelo Owalker |</li>
+                            <li>|HP| 20/20 |</li>
+                            <li>|Raça| Ficha |</li>
+                            <li>|MP| 30/30 |</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="caixa">
+                    <h2>Level</h2>
+                    <div id="hide">
+                        <ul>
+                            <li>|Level | 0 |</li>
+                            <li>|EXP | 0/10 |</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="caixa">
+                    <h2>|Atributos|</h2>
+                    <div id="hide">
+                        <ul>
+                            <li>
+                                <p>|Força| 9          (-1) Mod de força</p>
+                            </li>
+                            <li>
+                                <p>|Destreza| 10      (0) Mod de destreza</p>
+                            </li>
+                            <li>
+                                <p>|Constituição| 11  (0) Mod de constituição</p>
+                            </li>
+                            <li>
+                                <p>|Inteligência| 12 (+1) Mod de inteligência</p>
+                            </li>
+                            <li>
+                                <p>|Sabedoria| 13     (+1) Mod de sabedoria</p>
+                            </li>
+                            <li>
+                                <p>|Carisma| 14       (+2) Mod de carisma</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                 
+                <div id="caixa">
+                    <h2>|Habilidades Ativas|</h2>
+                    <div id="hide">
+                        <ul>
+                            <p>
+                                Nome da Habilidade - Funcionamento da Habilidade
+                                MP: Custo
+                            </p>
+                    
+                            <p>
+                                Exemplo - É utilizada de exemplo ao ser ativada dando 1d10 de dano
+                                MP: 5
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="caixa">
+                    <h2>|Habilidades Passivas|</h2>
+                    <div id="hide">
+                        <ul>
+                            <p>Nome da passiva - Funcionamento</p>
+                    
+                            <p>Exemplificando - A ficha terá maior compreensão conseguindo +1 mod em rolagem de sabedoria</p>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="caixa">
+                    <h2>|Habilidades de Raça|</h2>
+                    <div id="hide">
+                        <ul>
+                            <p>
+                                Nome da habilidade de raça - Funcionamento
+                                MP: Custo
+                            </p>
+                    
+                            <p>
+                                Ficha do exemplo - Imbui os exemplos com sua mana adicionando +1 de mod de inteligência
+                                MP: 5
+                            </p>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div id="caixa">
+                    <h2>|Inventário|</h2>
+                    <div id="hide">
+                          <ul>
+                            <h3>Dinheiro</h3>
+                                <p>0 Platinas, 0 Ouros, 0 Pratas, 0 Cobre</p>
+                            <h3>Armas</h3>
+                                <p>-Nenhuma arma no momento, quando tiver apague, a linha abaixo é exemplo</p>
+                                <p>-Espada larga - 1D6 de dano</p>
+                            <h3>Consumíveis</h3>
+                                <p>-Nenhuma consumível no momento, quando tiver apague, a linha abaixo é exemplo</p>
+                                <p>-5x Poção de mana - 1d6 de mana</p>
+                          </ul>
+                    </div>
+                </div>
+        </article>
+    </Main>
+    <footer></footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+        
+        
+        
+    </script>
+</body>
+</html>
