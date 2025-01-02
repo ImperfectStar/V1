@@ -5,6 +5,12 @@
     margin: 0px;
     padding: 0px;
 }
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
                             /*Fontes e Icones*/
 
                             /*Body*/
