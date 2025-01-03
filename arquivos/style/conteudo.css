@@ -6,13 +6,52 @@
     padding: 0px;
 }
 .hide{
-    display: none;
-}
-.show{
     display: block;
 }
-                            /*Fontes e Icones*/
-
+                            /*Class e Id's dos quadrados da ficha*/
+.ordem{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+#dadosdaficha{
+    width: 200px;
+    height: fit-content;
+}
+#hpficha{
+    width: 200px;
+    height: fit-content;
+}
+#level{
+    width: 200px;
+    height: fit-content;
+}
+#atributos{
+    width: 200px;
+    height: fit-content;
+}
+#habilidades_ativas{
+    width: 200px;
+    height: fit-content;
+}
+#habilidades_passivas{
+    width: 200px;
+    height: fit-content;
+}
+#habilidades_raça{
+    width: 200px;
+    height: fit-content;
+}
+#inventário{
+    width: 400px;
+    height: fit-content;    
+}
                             /*Body*/
 body{
     background-color: darkcyan;
@@ -102,6 +141,14 @@ main article div {
     margin: 10px 10px;
     padding: 10px;
 }
+main article div h2 {
+    justify-self: center;
+    margin: auto;
+    text-align: center;
+}
+main article div h2:hover{
+    cursor: pointer;
+}
 main article div div{
     display: block;
 }
@@ -147,5 +194,12 @@ footer{
     }
     main article div h3{
         padding: 10px;
+    }
+}
+@media screen and (min-width: 992px){
+    main{
+        margin: auto;
+        text-align: center;
+        width: 950px;
     }
 }
