@@ -26,24 +26,40 @@ header  {
     top: 0;
     
 }
-header h1 {
+header div{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+header div h1 {
+    justify-self: center;
+    margin: auto;
     text-align: center;
     font-size: 2em;
 }
-header h1 a{
+header div h1 a{
     text-decoration: none;
     color: whitesmoke;
 }
 #menu{
-    display: flex;
+    justify-self: left;
     padding: 10px;
-    justify-content: center;
     cursor: pointer;
     height: 20px;
+    margin-left: 0%;
+}
+header div button{
+    justify-self: right;
+    background-color: rgba(0, 0, 0, 0.295);
+    margin: 4px;
+    text-decoration: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
 }
 header menu{
     display: none;
-    
+    height: 110px;
 }
 header ul {
     list-style-type: none;
